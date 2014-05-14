@@ -1,0 +1,17 @@
+Instructions and links for setting up PopGUI on Windows:
+
+0. Install this repository at your preferred location.
+1. Install Python 7.1 - http://www.python.org/ftp/python/2.7.1/python-2.7.1.msi
+2.Download GTK+runtime either:
+   - 32bit - http://www.gtk.org/download/win32.php, choose GTK+ 3.6.4, Run-time link or
+   - 64bit (http://www.gtk.org/download/win64.php) - choose GTK+ 3.6.4, Binaries link
+save the file, unpack it in a folder and manually add the bin subfolder to the system path.
+3. Download to the python folder and install "pygtk-all-in-one-2.24.2.win32-py2.7.msi" from "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/2.24/"
+
+Enyoj!
+
+----
+Marko Petrovic
+Bulent Ozel
+UJI
+Castellon de la Plana, Spain
