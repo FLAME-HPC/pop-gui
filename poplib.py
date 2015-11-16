@@ -876,6 +876,17 @@ class BaseForm:
             vrange=int(max)-int(min)+1
             pos=sequenceno%vrange+min
             return function(pos)
+        
+        def oneToOneAssignment(l):
+            pos = l[sequenceno]
+            return pos
+        
+        def mergeLists(*args):
+            merged = []
+            for a in args:
+                merged = merged + a
+            return merged
+        
         def getAgentIDListRegional(*args):
             return this.getAgentIDListRegional(*args)
         def getAgentIDListGlobal(*args):
